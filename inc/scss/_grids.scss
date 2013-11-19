@@ -29,16 +29,6 @@
 	@include media($xl) {
 		@include span-columns(12);
 	}
-/*
-	// coluns within columns - sub columns!
-	&.sub {
-		@include span-columns(12 of 12);
-
-		@include media($m) {
-			@include span-columns(4 of 8);
-		}
-	}
-*/
 }
 
 // 33%

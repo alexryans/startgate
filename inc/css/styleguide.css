@@ -718,17 +718,7 @@ dl {
   display: block;
   float: left;
   margin-right: 2.35765%;
-  width: 100%;
-  /*
-  	// coluns within columns - sub columns!
-  	&.sub {
-  		@include span-columns(12 of 12);
-  
-  		@include media($m) {
-  			@include span-columns(4 of 8);
-  		}
-  	}
-  */ }
+  width: 100%; }
   .col-2:last-child {
     margin-right: 0; }
   @media screen and (min-width: 25.0625em) {
@@ -985,6 +975,10 @@ header {
   text-align: center;
   margin-bottom: 1rem;
   padding: 1rem; }
+
+.unit-fill2 {
+  background-color: white;
+  color: #404040; }
 
 footer {
   border-top: 1px solid gray;

@@ -1,0 +1,98 @@
+// reset the NEAT omega for multicolumn.
+@mixin omega-reset($nth) {
+	&:nth-child(#{$nth}) {
+		margin-right: flex-gutter();
+
+		@include media($xl) {
+			margin-right: flex-gutter(24);
+		}
+
+	}
+
+	&:nth-child(#{$nth}+1) { clear: none }
+}
+
+// Generic Grids
+///////////////////////////////////////////////////////////////////////////////
+
+.row {
+	@include row();
+}
+// 50%
+.col-2 {
+	@include span-columns(12);
+
+	@include media($s) {
+		@include span-columns(6);
+		@include omega(2n);
+	}
+	@include media($xl) {
+		@include span-columns(12);
+	}
+/*
+	// coluns within columns - sub columns!
+	&.sub {
+		@include span-columns(12 of 12);
+
+		@include media($m) {
+			@include span-columns(4 of 8);
+		}
+	}
+*/
+}
+
+// 33%
+.col-3 {
+	@include span-columns(12);
+
+	@include media($m) {
+		@include span-columns(4);
+		@include omega(3n);
+	}
+	@include media($xl) {
+		@include span-columns(8);
+	}
+}
+
+// 25%
+.col-4 {
+	@include span-columns(12);
+
+	@include media($s) {
+		@include span-columns(6);
+		@include omega(2n);
+	}
+	@include media($l) {
+		@include omega-reset(2n);
+		@include span-columns(3);
+		@include omega(4n);
+	}
+	@include media($xl) {
+		@include span-columns(6);
+		@include omega(4n);
+	}
+}
+
+// 75% + 25%
+.col-8-12 {
+	@include span-columns(12);
+
+	@include media($s2) {
+		@include span-columns(8);
+		@include omega(2n);
+	}
+	@include media($xl) {
+		@include span-columns(16);
+	}
+}
+.col-4-12 {
+	@include span-columns(12);
+
+	@include media($s2) {
+		@include span-columns(4);
+		@include omega(2n);
+	}
+	@include media($xl) {
+		@include span-columns(8);
+	}
+}

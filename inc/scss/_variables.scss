@@ -51,6 +51,9 @@ $lightgrey: lighten($black, 80%);
 $lightergrey: lighten($black, 95%);
 $white: #fff;
 
+// Body Color
+$base-body-color: $white;
+
 // Font Colors
 $base-font-color: $darkergrey;
 $base-accent-color: $blue;

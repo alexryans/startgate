@@ -594,6 +594,7 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em 0.5em;
+  resize: vertical;
   width: 100%; }
   textarea:hover,
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover {

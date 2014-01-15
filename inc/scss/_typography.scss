@@ -9,7 +9,7 @@ body {
 h1, h2, h3, h4, h5, h6, .alpha, .beta, .gamma, .delta, .epsilon, .zeta {
 	font-family: $header-font-family;
 	line-height: 1.25em;
-	margin: 0;
+	margin-top: 0;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings}
 	font-weight: bold;
 }
@@ -91,7 +91,7 @@ del {
 blockquote {
 	border-left: 2px solid $base-border-color;
 	color: lighten($base-font-color, 15);
-	margin: $base-line-height 0;
+	margin: 0 0 $base-line-height;
 	padding-left: $base-line-height / 2;
 }
 

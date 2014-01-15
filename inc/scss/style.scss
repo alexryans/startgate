@@ -1,19 +1,23 @@
-@import "bourbon"; // CodeKit
+@import "bourbon";				// CodeKit
 
-@import "neat/neat-helpers"; // CodeKit
+// Grids via Neat ////////////////////////
+@import "neat/neat-helpers";	// CodeKit
+@import "grid-settings";
+@import "neat";					// CodeKit
+@import "grids";
+
+//////////////////////////////////////////
 @import "variables";
-@import "neat"; // CodeKit
-
 @import "normalize";
-@import "mixins";
+@import "extends/base";
+@import "mixins/base";
 
-@import "extends/base"; // partials
+//////////////////////////////////////////
 @import "typography";
 @import "forms";
-@import "tables"; // add odd even nth-type stuff
+@import "tables";
 @import "lists";
 @import "flashes";
-@import "grids";
 
 @import "layout";
 @import "modules";

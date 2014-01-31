@@ -13,8 +13,8 @@ $m						: new-breakpoint(min-width em(555) 12); // 748
 $l						: new-breakpoint(min-width em(768) 12);
 $l2						: new-breakpoint(min-width em(800) 12);
 $l3						: new-breakpoint(min-width em(1056) 12);
-$xl						: new-breakpoint(min-width em(1168) 24);
-$xxl					: new-breakpoint(min-width em(1424) 24);
-$xxxl					: new-breakpoint(min-width em(1488) 24);
+$xl						: new-breakpoint(min-width em(1168) 12);
+$xxl					: new-breakpoint(min-width em(1424) 12);
+$xxxl					: new-breakpoint(min-width em(1488) 12);
 
 $max-width				: em(1488); // em(1088);

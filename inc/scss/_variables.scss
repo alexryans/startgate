@@ -1,3 +1,16 @@
+// Neat Grid Settings
+///////////////////////////////////////////////////////////////////////////////
+$s                      : new-breakpoint(min-width em(401) 12);
+$s2                     : new-breakpoint(min-width em(476) 12);
+$m                      : new-breakpoint(min-width em(555) 12); // 748
+$l                      : new-breakpoint(min-width em(768) 12);
+$l2                     : new-breakpoint(min-width em(800) 12);
+$l3                     : new-breakpoint(min-width em(1056) 12);
+$xl                     : new-breakpoint(min-width em(1168) 12);
+$xxl                    : new-breakpoint(min-width em(1424) 12);
+$xxxl                   : new-breakpoint(min-width em(1488) 12);
+$max-width              : em(1488);
+
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
 $sans-serif				: $helvetica;
@@ -15,7 +28,7 @@ $base-border-radius		: em(3);
 // Colors
 ///////////////////////////////////////////////////////////////////////////////
 
-$blue					: #477DCA;
+$main                   : #70ABFF;
 
 // greyscale
 $black					: #000;
@@ -32,7 +45,7 @@ $base-body-color		: $white;
 
 // Font Colors
 $base-font-color		: $darkergrey;
-$base-accent-color		: $blue;
+$base-accent-color		: $main;
 
 // Text Link Colors
 $base-link-color		: $base-accent-color;
@@ -42,6 +55,7 @@ $hover-link-color		: darken($base-accent-color, 15);
 $base-border-color		: $lightgrey;
 
 // Flash Colors
+$alert-color            : #FFF6BF;
 $error-color			: #FBE3E4;
 $notice-color			: #FFF6BF;
 $success-color			: #E6EFC2;
@@ -50,6 +64,17 @@ $success-color			: #E6EFC2;
 $brand-facebook			: #03539e;
 $brand-twitter			: #35ccff;
 $brand-linkedin			: #217bc1;
+
+// Forms
+////////////////////////////////////////////////////////////////////////////////
+$form-border-color: $base-border-color;
+$form-border-color-hover: darken($base-border-color, 10);
+$form-border-color-focus: $base-accent-color;
+$form-border-radius: $base-border-radius;
+$form-box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+$form-font-size: $base-font-size;
+$form-font-family: $base-font-family;
 
 // Spacing
 ///////////////////////////////////////////////////////////////////////////////

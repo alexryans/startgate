@@ -1,23 +1,25 @@
-@import "bourbon";				// CodeKit
-
-// Grids via Neat ////////////////////////
-@import "neat/neat-helpers";	// CodeKit
-@import "grid-settings";
-@import "neat";					// CodeKit
-@import "grids";
-
-//////////////////////////////////////////
+@import "bourbon"; // codekit
+@import "neat/neat-helpers"; // CodeKit
 @import "variables";
-@import "normalize";
-@import "extends/base";
-@import "mixins/base";
+@import "neat";  // CodeKit
 
-//////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+@import "normalize";
+
+@import "extends/button";
+@import "extends/shadow";
+
+@import "mixins/flash";
+
+////////////////////////////////////////////////////////////////////////////////
 @import "typography";
 @import "forms";
+@import "buttons";
 @import "tables";
 @import "lists";
 @import "flashes";
+@import "grids";
 
+////////////////////////////////////////////////////////////////////////////////
 @import "layout";
 @import "modules";

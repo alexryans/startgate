@@ -1,0 +1,7 @@
+.main {
+    padding: $pad;
+    
+    @include media($xxxl) {
+        padding: $pad 0;
+    }
+}

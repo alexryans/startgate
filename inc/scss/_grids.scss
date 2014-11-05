@@ -64,3 +64,23 @@
         @include omega(2n);
     }
 }
+
+// 17%
+.col-6 {
+    @include span-columns(12);
+
+    @include media($s2) {
+        @include span-columns(2);
+        @include omega(6n);
+    }
+}
+
+// 9%
+.col-12 {
+    @include span-columns(12);
+
+    @include media($s2) {
+        @include span-columns(1);
+        @include omega(12n);
+    }
+}

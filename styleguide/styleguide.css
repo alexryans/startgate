@@ -1306,6 +1306,52 @@ dl {
       .col-4-12:nth-child(2n+1) {
         clear: left; } }
 
+.col-6 {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .col-6:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 29.75em) {
+    .col-6 {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 14.7019570017%; }
+      .col-6:last-child {
+        margin-right: 0; }
+      .col-6:nth-child(6n) {
+        margin-right: 0; }
+      .col-6:nth-child(6n+1) {
+        clear: left; } }
+
+.col-12 {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .col-12:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 29.75em) {
+    .col-12 {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 6.1721527019%; }
+      .col-12:last-child {
+        margin-right: 0; }
+      .col-12:nth-child(12n) {
+        margin-right: 0; }
+      .col-12:nth-child(12n+1) {
+        clear: left; } }
+
+.main {
+  padding: 1rem; }
+  @media screen and (min-width: 93em) {
+    .main {
+      padding: 1rem 0; } }
+
 header,
 section {
   max-width: 93em;

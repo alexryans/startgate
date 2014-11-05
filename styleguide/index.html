@@ -2,7 +2,7 @@
 <html>
 	<head>
 	<meta charset="utf-8" />
-	<title>startgate - predefined style for Bourbon, based on Bitters</title>
+	<title>Startgate - predefined style for Bourbon, based on Bitters</title>
 
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -18,6 +18,7 @@
 	<body>
 	<header class="main">
 		<h1><a href="#">startgate</a></h1>
+		
 		<div id="how-do">
 			<div class="default">Default</div>
 			<div class="bp-s">s</div>
@@ -44,14 +45,19 @@
 
 		<h1>h1. Heading</h1>
 		<p class="alpha">p.alpha</p>
+		
 		<h2>h2. Heading</h2>
 		<p class="beta">p.beta</p>
+		
 		<h3>h3. Heading</h3>
 		<p class="gamma">p.gamma</p>
+		
 		<h4>h4. Heading</h4>
 		<p class="delta">p.delta</p>
+		
 		<h5>h5. Heading</h5>
 		<p class="epsilon">p.epsilon</p>
+		
 		<h6>h6. Heading</h6>
 		<p class="zeta">p.zeta</p>
 
@@ -68,37 +74,42 @@
 		<h1 id="list_types">List Types</h1>
 
 		<h3>Definition List</h3>
+		
 		<dl>
 			<dt>Definition List Title</dt>
 			<dd>This is a definition list division.</dd>
 		</dl>
 
 		<h3>Ordered List</h3>
+		
 		<ol>
-			<li>List Item 1</li>
-			<li>List Item 2</li>
-			<li>List Item 3</li>
+			<li>List Item 1
+			<li>List Item 2
+			<li>List Item 3
 		</ol>
 
 		<h3>Unordered List</h3>
+		
 		<ul>
-			<li>List Item 1</li>
-			<li>List Item 2</li>
-			<li>List Item 3</li>
+			<li>List Item 1
+			<li>List Item 2
+			<li>List Item 3
 		</ul>
 
 		<h3>.plain Ordered List</h3>
+		
 		<ol class="plain">
-			<li>List Item 1</li>
-			<li>List Item 2</li>
-			<li>List Item 3</li>
+			<li>List Item 1
+			<li>List Item 2
+			<li>List Item 3
 		</ol>
 
 		<h3>.plain Unordered List</h3>
+		
 		<ul class="plain">
-			<li>List Item 1</li>
-			<li>List Item 2</li>
-			<li>List Item 3</li>
+			<li>List Item 1
+			<li>List Item 2
+			<li>List Item 3
 		</ul>
 
 		<hr />
@@ -115,20 +126,24 @@
 
 				<p>
 					<label for="text_field">Text Field:</label>
-					<input type="text" id="text_field" /></p>
+					<input type="text" id="text_field" />
+				</p>
 
 				<p>
 					<label for="text_area">Text Area:</label>
-					<textarea id="text_area"></textarea></p>
+					<textarea id="text_area"></textarea>
+				</p>
 
 				<p>
 					<label for="select_element">Select Element:</label>
+					
 					<select name="select_element">
 						<optgroup label="Option Group 1">
 							<option value="1">Option 1</option>
 							<option value="2">Option 2</option>
 							<option value="3">Option 3</option>
 						</optgroup>
+						
 						<optgroup label="Option Group 2">
 							<option value="1">Option 1</option>
 							<option value="2">Option 2</option>
@@ -138,12 +153,15 @@
 
 				<p>
 					<label for="radio_buttons">Radio Buttons:</label>
+					
 					<label>
 						<input type="radio" class="radio" name="radio_button" value="radio_1" /> Radio 1
 					</label>
+					
 					<label>
 						<input type="radio" class="radio" name="radio_button" value="radio_2" /> Radio 2
 					</label>
+					
 					<label>
 						<input type="radio" class="radio" name="radio_button" value="radio_3" /> Radio 3
 					</label>
@@ -151,12 +169,15 @@
 
 				<p>
 					<label for="checkboxes">Checkboxes:</label>
+					
 					<label>
 						<input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Radio 1
 					</label>
+					
 					<label>
 						<input type="checkbox" class="checkbox" name="checkboxes" value="check_2" /> Radio 2
 					</label>
+					
 					<label>
 						<input type="checkbox" class="checkbox" name="checkboxes" value="check_3" /> Radio 3
 					</label>
@@ -185,12 +206,15 @@
 			<tr>
 				 <th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th>
 			</tr>
+			
 			<tr>
 				 <td>Division 1</td><td>Division 2</td><td>Division 3</td>
 			</tr>
+			
 			<tr class="even">
 				 <td>Division 1</td><td>Division 2</td><td>Division 3</td>
 			</tr>
+			
 			<tr>
 				 <td>Division 1</td><td>Division 2</td><td>Division 3</td>
 			</tr>
@@ -212,14 +236,21 @@
 		<hr />
 
 		<h1 id="flashes">Flash / error messages</h1>
-		<div class="success">
+		
+		<div class="flash-success">
 			<span>This is a success message <a href="#">with a link</a></span>
 		</div>
-		<div class="error">
+		
+		<div class="flash-error">
 			<span>This is an error message <a href="#">with a link</a></span>
 		</div>
-		<div class="notice">
+		
+		<div class="flash-notice">
 			<span>This is an notice message <a href="#">with a link</a></span>
+		</div>
+		
+		<div class="flash-alert">
+			<span>This is an alert message <a href="#">with a link</a></span>
 		</div>
 
 		<hr />
@@ -227,9 +258,9 @@
 
 	<section id="grids">
 		<h1>Grid Examples</h1>
-		<p>Define your own specific to the project using <a href="http://neat.bourbon.io/">Bourbon Neat</a>
-
+		
 		<h2>col-2</h2>
+		
 		<div class="row">
 			<div class="col-2 unit-fill">1/2</div>
 			<div class="col-2 unit-fill">2/2</div>
@@ -239,6 +270,7 @@
 		</div>
 
 		<h3>col-3</h3>
+		
 		<div class="row">
 			<div class="col-3 unit-fill">1/3</div>
 			<div class="col-3 unit-fill">2/3</div>
@@ -250,6 +282,7 @@
 		</div>
 
 		<h2>col-4</h2>
+		
 		<div class="row">
 			<div class="col-4 unit-fill">1/4</div>
 			<div class="col-4 unit-fill">2/4</div>
@@ -263,6 +296,7 @@
 		</div>
 
 		<h2>col-8-12 + col-4-12</h2>
+		
 		<div class="row">
 			<div class="col-8-12 unit-fill">8/12</div>
 			<div class="col-4-12 unit-fill">4/12</div>
@@ -272,6 +306,7 @@
 		</div>
 
 		<h2>col-8-12 + col-4-12</h2>
+		
 		<div class="row">
 			<div class="col-4-12 unit-fill">4/12</div>
 			<div class="col-8-12 unit-fill">8/12</div>

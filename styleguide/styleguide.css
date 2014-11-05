@@ -1209,14 +1209,6 @@ dl {
         margin-right: 0; }
       .col-2:nth-child(2n+1) {
         clear: left; } }
-  @media screen and (min-width: 73em) {
-    .col-2 {
-      float: left;
-      display: block;
-      margin-right: 2.3576515979%;
-      width: 100%; }
-      .col-2:last-child {
-        margin-right: 0; } }
 
 .col-3 {
   float: left;

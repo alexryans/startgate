@@ -20,9 +20,6 @@
         @include span-columns(6);
         @include omega(2n);
     }
-    @include media($xl) {
-        @include span-columns(12);
-    }
 }
 
 // 33%

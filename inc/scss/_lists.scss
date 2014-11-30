@@ -3,25 +3,25 @@ ul, ol {
   padding: 0;
   list-style-type: none;
 
-  &%default-ul {
+  &.default-ul {
     list-style-type: disc;
-    margin-bottom: $base-line-height / 2;
-    padding-left: $base-line-height;
+    margin-bottom: $space;
+    padding-left: $space;
   }
 
-  &%default-ol {
+  &.default-ol {
     list-style-type: decimal;
-    margin-bottom: $base-line-height / 2;
-    padding-left: $base-line-height;
+    margin-bottom: $space;
+    padding-left: $space;
   }
 }
 
 dl {
-  margin-bottom: $base-line-height / 2;
+  margin-bottom: $space;
 
   dt {
     font-weight: bold;
-    margin-top: $base-line-height / 2;
+    margin-top: $space;
   }
 
   dd {
